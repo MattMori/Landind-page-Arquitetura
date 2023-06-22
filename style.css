@@ -84,9 +84,8 @@ input{
     border: 0px;
     border-radius: 10px;
     padding: 10px;
-    }
-    
-    button{
+}
+button{
         background-color: #C07212;
         height: 58px;
         width: 250px;
@@ -97,9 +96,8 @@ input{
         margin-bottom: 40px;
         font-weight: bolder;
         cursor: pointer;
-    }
-    
-    button:hover{
+}
+button:hover{
         background-color: #c99659;
         color: white;
         transform: translateY(-7px);
