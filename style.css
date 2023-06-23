@@ -1,26 +1,34 @@
 *{
     margin: 0%;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Inter';
 }
+
+
 
 #menu-superior{
     background-color: #303030;
-    width: 100%;
     padding-top: 150px;
     padding-bottom: 150px;
+    height: 320px;
+    
 }
 
 #titulo-superior{
     color: #fff;
-    font-size: 75px;
-    margin-left: 70px;
+    font-size: 80px;
+    padding-left: 80px;
+    font-weight: 500;
+    line-height: 72px;
+    letter-spacing: -1.5px;
+    padding-top: 165px;
 }
 
 #texto-superior{
     color: #fff;
-    font-size: 30px;
-    margin-left: 70px;
-    margin-top: 5px;
+    font-size: 27px;
+    padding-left: 80px;
+    margin-top: 35px;
+    
      
 }
 
@@ -29,46 +37,64 @@
     display: grid;
     grid-auto-flow: column;
     columns: auto;
-    width: 100%; 
-    height: 200px;
+    justify-content: space-around;
+    padding-top: 115px;
+    padding-bottom: 115px;
+    padding-left: 130px;
 }
 
-.icon{
-    margin-top: 65px;
-    margin-left: 180px;
+.dados-titulo{
+    font-size: 40px;
+    font-weight: 600;
 }
+
+.dados-texto{
+    font-size: 30px;
+    font-weight: 400;
+}
+
+
 
 #historia{
     display: grid;
     grid-auto-flow: column;
-    margin-left: 74px;
-    
+    columns: auto;
+    justify-content: space-between;
+    padding-left: 150px;
+    padding-top: 50px;
+    padding-bottom: 89px;
+    padding-right: 74px;
+    height: 779px;
 }
 
 .titulo-texto{
-    padding-top: 200px;
+    padding-top: 300px;
     font-size: 50px; 
     padding-bottom: 50px;
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 20px;
+    
 }
 
 .texto{
     font-size: 30px;
-     
-}
+    font-weight: 300;
+    }
 
 #imagem{
-    margin-top: 5%;
-    margin-left: 64px;
-    margin-bottom: 80px;
+    width: 600px;
+    height: 704px;
+    flex-shrink: 0;
     border-radius: 30px;
-    margin-right: 54px;
-    width: 610px;
-    height: 705px;
+    margin-top: 80px;
+    margin-bottom: 80px;
 }
 
 #formulario{
     text-align: center;
     background-color: #303030;
+    height: 590px;
 }
 #titulo-formulario{
     color: #FFF;
